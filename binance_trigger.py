@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Binance Futures — выставление и снятие отложенных заявок по времени
-Тип ордера: TAKE_PROFIT_MARKET (trigger price → market execution)
+Binance USDT-M Futures — размещение стоп-ордеров по расписанию.
+Тип ордера: TAKE_PROFIT_MARKET (stop-triggered market execution)
 
-BUY  trigger: ниже текущей цены на X%  (покупка на откате)
-SELL trigger: выше текущей цены на X%  (продажа на росте)
+BUY  stop: ниже текущей цены на X%
+SELL stop: выше текущей цены на X%
 """
 
 import asyncio
