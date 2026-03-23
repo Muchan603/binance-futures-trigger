@@ -1,0 +1,23 @@
+{
+  "_comment": "Скопируйте в config.json и заполните своими данными",
+
+  "api_key":    "YOUR_API_KEY",
+  "api_secret": "YOUR_API_SECRET",
+
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "BNBUSDT",
+    "XMRUSDT"
+  ],
+
+  "distance_pct":   1.0,
+  "volume_usdt":    10000,
+  "mode":           "both",
+
+  "place_time_utc":  "09:05:02",
+  "cancel_time_utc": "09:05:10",
+
+  "testnet": true
+}

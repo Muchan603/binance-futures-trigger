@@ -1,0 +1,10 @@
+# Никогда не публиковать реальные ключи!
+config.json
+orders.log
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
